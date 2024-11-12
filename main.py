@@ -1,1 +1,1 @@
-printfaf("Hola Mundo")
+print("Hola Mundo")
