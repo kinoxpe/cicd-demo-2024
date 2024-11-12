@@ -13,7 +13,7 @@ jobs:
         
   hola_mundo:
     runs-on: ubuntu-latest
-
+    needs: test
     steps:
       - name: Bajar codigo
         uses: actions/checkout@v4
